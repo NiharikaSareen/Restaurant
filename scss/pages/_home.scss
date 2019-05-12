@@ -1,0 +1,23 @@
+.bread-bck {
+  background: url("../images/tasteful-recipes-img.jpg")
+    no-repeat center center;
+  background-size: cover;
+  padding: 15% 0;
+}
+
+.dessert-bck {
+background: -webkit-linear-gradient(bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.3)),url(../images/masala-bg.jpg) no-repeat center center;
+background: -o-linear-gradient(bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.3)),url(../images/masala-bg.jpg) no-repeat center center;
+background: linear-gradient(to top, rgba(0,0,0,0.5), rgba(0,0,0,0.3)),url(../images/masala-bg.jpg) no-repeat center center;
+  background-size: cover;
+  padding: 15% 0px;
+}
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 8px;
+}
+
+.side-by-side {
+  display: flex;
+}

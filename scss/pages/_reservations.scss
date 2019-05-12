@@ -1,0 +1,67 @@
+.hero--reservation {
+    height: 55vh;
+}
+.reservations-img {
+    background: linear-gradient(0deg, rgba(0,0,0,.6), rgba(0,0,0,.7)), url('../images/menu-header-img.jpg') no-repeat center center;
+    background-size: cover;
+}
+.hero__subtitle {
+    font-size: 12px !important;
+    letter-spacing: initial !important;
+}
+
+#reservation-form {
+    input, select {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
+
+
+.private-room-img {
+    height: 350px;
+    object-fit: cover;
+}
+
+#champainge-section {
+    padding: 2.2% 2%;
+    background: lighten($color: $primary-color, $amount: 10%);
+    color: #fff;
+}
+
+@media(min-width: 800px) {
+    .hero__subtitle {
+        font-size: 16px !important;
+    }
+    #reservation-form {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        input, select {
+            flex: 1 1 20%;
+            margin-bottom: 0;
+            margin-left: 50px;
+            margin-right: 50px;
+        }
+        [type="submit"] {
+            flex: 0 0 20%;
+            margin: 30px auto 0;
+        }
+    }
+}
+@media(max-width: 799px) {
+.room__section{   
+    .row{
+        display: flex;
+    flex-direction: column;
+    }
+    &--text{
+        order:2;
+    }
+
+    &--img{
+        order:1;
+    }
+
+}
+}

@@ -1,0 +1,16 @@
+.section__title {
+    h2 {
+        line-height: 0.60;
+        letter-spacing: 4px;
+        font-size: 30px;
+        // font-weight: 400;
+        // font-weight: bold !important;
+        span {
+            letter-spacing: 0;
+            font-weight: 400;
+            color: $primary-color;
+            font-size: 80px;
+            font-family: $headerFont;
+        }
+    }
+}
